@@ -25,7 +25,7 @@
 .hero-content {
     max-width: 800px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: #578eb1;
     border-radius: 10px;
 }
 .hero h1 {
@@ -61,7 +61,7 @@
 }
 .card {
     margin: 100px;
-    background-color: #87cefa;
+    background-color: #578eb1;
     color:#000000;
     width: 300px;
     height: 500px;
@@ -238,4 +238,29 @@ section {
 
 .educacao-tabela tr:hover {
     background-color: #a6dced; 
+}
+
+
+
+.footer-links img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.diminuirimg {
+    width: 60%;  
+    max-width: 250px;  
+    border-radius: 8px;  
+    margin-top: -250;
+}
+
+h2{
+    font-family: "Poppins";
+    color: #124458;
+}
+
+h4{
+    font-family: "Poppins";
+    color: #124458;
 }
