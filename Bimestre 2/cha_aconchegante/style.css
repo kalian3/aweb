@@ -1,112 +1,133 @@
 body {
-    font-family: Helvetica, sans-serif;
-    color: seashell;
-    background-color: rgb(215, 81, 217);
-    text-align: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 header {
+    background-color: rgba(224, 9, 52, 0.582);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px 20px;
-    border-bottom: 1px solid seashell;
-    background-color: rgb(249, 172, 226);
+    padding: 25px;
+    color: white;
     position: fixed;
     width: 100%;
-    top: 0;
-    z-index: 1000;
-    height: 69px;
 }
-
-.logo img {
-    height: 50px;
+.home{
+    top: 30px;
+}
+header img {
+    max-width: 150px;
 }
 
 nav ul {
+    text-align: center;
     list-style: none;
-    display: flex;
-    gap: 50px;
-    margin: 0;
-    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 nav a {
-    color: seashell;
-    text-decoration: underline;
-    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    
 }
 
-.banner {
-    background: url('img-mission-background.webp') center/cover no-repeat;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#home {
     text-align: center;
-    width: 1000px;
-    margin: 0 auto;
+    padding: 40px 0;
 }
 
-.overlay {
-    background-color: rgb(215, 81, 217);
+#home h1, h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#home p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: rgba(245, 141, 162, 0.582);
     padding: 20px;
-}
-
-h2 {
-    font-size: 32px;
-    text-transform: uppercase;
-}
-
-h4 {
-    font-size: 22px;
-}
-
-.product-gallery {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    padding: 50px;
-}
-
-.product img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
+    margin: 20px;
     border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.locations-container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 50px;
-    background: url('img-locations-background.jpg') center/cover no-repeat;
-    height: 500px;
-    align-items: center;
+.menu-item img {
+    max-width: 90%;
+    height: auto;
 }
 
-.location {
-    background-color: rgba(236, 105, 208, 0.8);
-    padding: 20px;
-    border-radius: 5px;
-    width: 300px;
-    opacity: 1;
+#about {
+    background-color: #F5F5F5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#hours {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#hours table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#hours th, #hours td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#locations {
+    background-color: #F5F5F5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    padding: 40px 0;
 }
 
 footer {
-    padding: 20px;
-    background-color: rgb(238, 187, 247);
+    background-color: rgba(224, 9, 52, 0.582);
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
 
-footer h5 {
-    font-size: 15px;
+@font-face {
+    font-family: tu ;
+    src: url(BetterTogether-owP2B.otf);
 }
 
-footer p {
-    text-align: left;
-    font-size: 12px;
+.cabecario{
+    font-family: 'tu', Times, serif;
+}
+
+h3{
+    font-family: 'tu', Times, serif;
+}
+@font-face {
+    font-family: bs;
+    src: url(Blenda\ Script.otf);
+}
+h1{
+    font-family: 'bs', Times, serif;
+}
+h2{
+    font-family: 'bs', Times, serif;
+}
+.end{
+    font-family: 'b', Times, serif;
 }
