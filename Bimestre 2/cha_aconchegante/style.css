@@ -101,3 +101,25 @@ header img {
 .locations h2 {
     padding-top: 5vh;
 }
+
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+    background: url('resources/img-locations-background.jpg') center/cover no-repeat;
+    gap: 40px;
+    padding: 50px;
+    height: 500px;
+    align-items: center;
+    width: 75vw;
+    height: 90.7vh;
+    margin-left: 12vw;
+}
+
+.location {
+    background-color: seashell;
+    padding: 10px;
+    border-radius: 0px;
+    width: 300px;
+    opacity: 1;
+}
