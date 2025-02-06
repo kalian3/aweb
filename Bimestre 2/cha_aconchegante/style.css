@@ -117,9 +117,13 @@ header img {
 }
 
 .location {
-    background-color: seashell;
     padding: 10px;
-    border-radius: 0px;
+    border-radius: 1px;
     width: 300px;
     opacity: 1;
+
+}
+#contact {
+    text-align: center;
+    padding: 40px 0;
 }
